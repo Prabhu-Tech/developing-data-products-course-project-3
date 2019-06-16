@@ -1,5 +1,5 @@
 ---
-title: "Developing Data Products Course Project 3"
+title: "Developing Data Products<br>Course Project<br>Week 4"
 author: "Jeffrey M. Hunter"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: ioslides_presentation
@@ -9,27 +9,43 @@ output: ioslides_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## R Markdown
+## Synopsis
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This project was created for the Developing Data Products course as part of the
+Data Science Specialization offered through Coursera from Johns Hopkins
+University.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+The source code files for this project can be found on GitHub:
 
-## Slide with Bullets
+<a target="_blank" href="https://github.com/oraclejavanet/developing-data-products-course-project-3">https://github.com/oraclejavanet/developing-data-products-course-project-3</a>
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+## Course Project
 
-## Slide with R Output
+The course project is a two part peer-graded assignment:
 
-```{r cars, echo = TRUE}
-summary(cars)
-```
+- Create a Shiny application and deploy it on RStudio's servers
 
-## Slide with Plot
+- Use Slidify or RStudio Presenter to prepare a reproducible pitch presentation
+about your application.
 
-```{r pressure}
-plot(pressure)
-```
+The name of the Shiny application developed for this project is the
+**Motor Trend Data Analysis Application** and is hosted on RStudio's
+shinyapps.io hosted service:
 
+<a target="_blank" href="https://jhunter.shinyapps.io/develop-data-products-week-4-project/">https://jhunter.shinyapps.io/develop-data-products-week-4-project/</a>
+
+## Motor Trend Data Analysis Application
+
+**Motor Trend Data Analysis** is an interactive Shiny application that uses
+linear regression modeling techniques to estimate fuel consumption (MPG) in 32
+automobiles (1973-74 models) based on 11 aspects of automobile design and
+performance.
+
+## About the Data Set
+
+The mtcars dataset is comprised of data that was was extracted from the 1974
+Motor Trend US magazine, and comprises fuel consumption and 11 aspects of
+automobile design and performance for 32 automobiles (1973-74 models).
+
+The mtcars dataset is a data frame with 32 observations on 11 (numeric)
+variables.
